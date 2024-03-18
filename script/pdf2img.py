@@ -15,7 +15,7 @@ def pdf_to_images(pdf_path, output_folder):
         page.save(image_path, 'PNG')  # Change JPEG to the format you prefer
 
 if __name__ == "__main__":
-    pdf_path = "../show.covers.reviews.pdf"  # Path to your PDF file
+    pdf_path = "../shows.covers.reviews.pdf"  # Path to your PDF file
     output_folder = "covers"  # Folder to save the images
 
     pdf_to_images(pdf_path, output_folder)
